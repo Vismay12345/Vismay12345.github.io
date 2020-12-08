@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.nav-list{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    size: solid;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+
+.nav-list a:hover{
+    color: gray;
+}
+
+.search{
+    text-align: right;
+    width: 50%;
+    padding: 50px 30px;
+}
+
+#search{
+    border: solid white 5px;
+    border-radius: 10px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url("../Images/bg.webp");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.Home{
+    margin: auto;
+    max-width: 75%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.heading1{
+    justify-content: center;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    padding: 500px,0px;
+    font-size: 500%;
+}
+
+
+.tagline{
+    text-align: center;
+    justify-content: center;
+    color:  rgb(255, 255, 255);
+    font-size: medium;
+    padding: 500px,0px;
+    font-size: 250%;
+}
+
+.logo2{
+    border: 3px white solid;
+    border-radius: 150px;
+    width: 250px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btn{
+    background: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+    border: solid white;
+    border-radius: 50px;
+}
+.btn1{
+    background: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: solid white;
+    border-radius: 50px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
